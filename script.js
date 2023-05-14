@@ -4,7 +4,7 @@ var howmuch = 0;
 commanderButtons.forEach((button) => {
     
   button.addEventListener("click", () => {
-    if(howmuch<=10){
+    if(howmuch>10){
         alert("stop le panier peut comprendre juste 10 peluches");
     }
     howmuch++;
